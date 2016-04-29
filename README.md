@@ -17,5 +17,8 @@ https://mega.nz/#!ZEoyRT4D!j-i_5jlACI0NJoZz32-cJk86Sg91TnmI7T1Y2lmwxKU
 
 You can find a description of the methods used in this engine here: www.j-d-b.net/files/Real-Time_Ray-Tracing_Methodology.pdf
 
+Screenshot of a scene rendered with Pray Engine using 4x AA:
+http://postimg.org/image/n3zs71635/
+
 Pray Engine is based on the Chili DirectX Framework:
 http://www.planetchili.net/
