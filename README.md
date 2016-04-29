@@ -1,6 +1,6 @@
-# Ray-Tracer-CPU-Prototype
+# Ray-Tracer CPU Prototype
 
-Pray Engine is an experimental ray tracing engine which is capable of rendering analytical spheres and triangle polygons with textures. It includes features such as support for normal maps, surface transparency, colored shadows, and some basic lighting models.
+Pray Engine is an experimental ray tracing engine which is capable of rendering analytical spheres and triangle polygons with textures. It includes features such as support for normal maps, surface transparency, colored shadows, anti-aliasing, mipmapping, and more.
 
 It is a VS 2012 project and uses a DirectX 9 window to display the rendered result. However it doesn't use the GPU to compute anything, my next goal is to use OpenCL to handle all the parallel processing by writing totally custom kernels based on this prototype code.
 
