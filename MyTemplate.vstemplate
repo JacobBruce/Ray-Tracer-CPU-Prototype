@@ -1,0 +1,42 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Pray Engine Prototype</Name>
+    <Description>Prototype particle-tracing engine</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Pray Engine</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="PrayEngine.vcxproj" File="PrayEngine.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">PrayEngine.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.cpp">Game.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="D3DGraphics.cpp">D3DGraphics.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Keyboard.cpp">Keyboard.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mouse.cpp">Mouse.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sound.cpp">Sound.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Timer.cpp">Timer.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Windows.cpp">Windows.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.h">Game.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ChiliMath.h">ChiliMath.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Colors.h">Colors.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="D3DGraphics.h">D3DGraphics.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FrameTimer.h">FrameTimer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Keyboard.h">Keyboard.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mouse.h">Mouse.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Rect.h">Rect.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Resource.h">Resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Sound.h">Sound.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Timer.h">Timer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Vec2.h">Vec2.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="PrayEngine.res">PrayEngine.res</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
