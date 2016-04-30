@@ -238,7 +238,7 @@ bool Game::IsOccluding(Object& obj)
 	if (obj.raySphereIntersect(pntVect, losVect)) {
 		// check if object is analytical sphere
 		if (obj.type == -1) { return obj.isOccluder; }
-		// get pointer to object mesh
+		// get copy of object mesh
 		lodMesh = *(obj.GetMesh());
 		// loop through triangles in object
 		for (t=0; t<lodMesh.tCount; t++) {
@@ -838,7 +838,7 @@ void Game::ComputeStage3()
 	// loop through remaining objects in list
 	while (objNode != nullptr) {
 
-		// get pointer to current object in list
+		// get current object in list
 		tbjNode = *objNode;
 		targObj = tbjNode.object;	
 		copyObj = *targObj;
